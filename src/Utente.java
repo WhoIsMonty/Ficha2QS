@@ -14,4 +14,37 @@ public class Utente {
 		this.peso = peso;
 	}
 
+	public int getIdade() {
+		return idade;
+	}
+
+	public void setIdade(int idade) {
+		this.idade = idade;
+	}
+
+	public float getAltura() {
+		return altura;
+	}
+
+	public void setAltura(float altura) {
+		this.altura = altura;
+	}
+
+	public int getPeso() {
+		return peso;
+	}
+
+	public void setPeso(int peso) {
+		this.peso = peso;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public String getGenero() {
+		return genero;
+	}
+
+	
 }

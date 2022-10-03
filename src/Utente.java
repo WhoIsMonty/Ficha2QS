@@ -46,5 +46,11 @@ public class Utente {
 		return genero;
 	}
 
+	@Override
+	public String toString() {
+		return "Utente [nome=" + nome + ", genero=" + genero + ", idade=" + idade + ", altura=" + altura + ", peso="
+				+ peso + "]";
+	}
+
 	
 }
